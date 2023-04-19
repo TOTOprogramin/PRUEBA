@@ -1,0 +1,299 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+.conteiner{
+
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+position: relative;
+perspective: 1000px;
+background-color: black;
+padding: 100px;
+
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor:grab;
+}
+
+@keyframes girar{
+
+    from{
+      transform: rotateY(360deg) translateZ(150px);
+      z-index: 10;
+    }
+    
+    50%{
+      z-index: -10;
+    }
+to{
+
+transform: rotateY(0) translateZ(150px);
+z-index: 10;
+
+}
+}
+
+#lado_d{
+  background-image: url(https://th.bing.com/th/id/OIP.lUTt_wBx_BjI3Fb-xAVYNgHaEK?pid=ImgDet&w=189&h=106&c=7);
+  background-size: cover;
+  background-position: center;
+}
+#lado_d:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+
+}
+
+#lado_c{
+  background-image: url(https://th.bing.com/th/id/OIP.JXRyMC5E-E3JmhJE1RjgUQAAAA?pid=ImgDet&w=189&h=132&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -1s;
+}
+
+#lado_c:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+
+#lado_b{
+  background-image: url(https://th.bing.com/th/id/OIP.ghSRLsJR20V1XctQsuYwdQHaE8?pid=ImgDet&w=189&h=126&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -2s;
+}
+
+#lado_b:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+
+#lado_a{
+  background-image: url(https://th.bing.com/th/id/OIP.8n72L3qizpy1UN_73LkdmwHaEK?pid=ImgDet&w=189&h=106&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -3s;
+}
+
+#lado_a:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+/* top and bottom*/
+
+.lado_2{
+height: 300px;
+width: 300px;
+animation: girar_2 4s linear infinite;
+position: absolute;
+}
+
+@keyframes girar_2{
+    from{
+      transform: rotateY(360deg) rotateX(90deg);
+    }
+
+    to{
+      transform: rotateY(0deg) rotateX(90deg);
+    }
+}
+
+#lado_e{
+  background-color: white;
+  margin-bottom: 300px;
+
+}
+#lado_f{
+  background-color: black;
+  margin-bottom: 300px;
+}
+
+h1{
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+  padding: 20px;
+}
+
+.section1{
+  display: flex;
+  padding-bottom: 0 ;
+}
+
+
+
+/*  sections 2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner2{
+
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+position: relative;
+perspective: 1000px;
+background-color: black;
+padding: 100px;
+
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor:grab;
+}
+
+@keyframes girar{
+
+    from{
+      transform: rotateY(360deg) translateZ(150px);
+      z-index: 10;
+    }
+    
+    50%{
+      z-index: -10;
+    }
+to{
+
+transform: rotateY(0) translateZ(150px);
+z-index: 10;
+
+}
+}
+
+#lado_d{
+  background-image: url(https://th.bing.com/th/id/OIP.lUTt_wBx_BjI3Fb-xAVYNgHaEK?pid=ImgDet&w=189&h=106&c=7);
+  background-size: cover;
+  background-position: center;
+}
+#lado_d:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+
+}
+
+#lado_c{
+  background-image: url(https://th.bing.com/th/id/OIP.JXRyMC5E-E3JmhJE1RjgUQAAAA?pid=ImgDet&w=189&h=132&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -1s;
+}
+
+#lado_c:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+
+#lado_b{
+  background-image: url(https://th.bing.com/th/id/OIP.ghSRLsJR20V1XctQsuYwdQHaE8?pid=ImgDet&w=189&h=126&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -2s;
+}
+
+#lado_b:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+
+#lado_a{
+  background-image: url(https://th.bing.com/th/id/OIP.8n72L3qizpy1UN_73LkdmwHaEK?pid=ImgDet&w=189&h=106&c=7);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -3s;
+}
+
+#lado_a:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+}
+/* top and bottom*/
+
+.lado_2{
+  height: 300px;
+  width: 300px;
+  animation: girar_2 4s linear infinite;
+  position: absolute;
+  }
+  
+  @keyframes girar_2{
+      from{
+        transform: rotateY(360deg) rotateX(90deg);
+      }
+  
+      to{
+        transform: rotateY(0deg) rotateX(90deg);
+      }
+  }
+  
+  #lado_e{
+    background-color: white;
+    margin-bottom: 300px;
+  
+  }
+  #lado_f{
+    background-color: black;
+    margin-bottom: 300px;
+  }
+  
+  h1{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .section2{
+    display: flex;
+    padding: 0px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
